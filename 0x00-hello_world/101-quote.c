@@ -8,7 +8,9 @@ int main(void)
 {
 	int i = 0;
 	char n = '\n';
-	const char *msg= "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	const char *msg = "and that piece of art is useful\" \
+- Dora Korpar, 2015-10-19";
+
 	while (msg[i] != '\0')
 	{
 		write(2, &msg[i], 1);
