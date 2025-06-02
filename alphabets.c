@@ -13,8 +13,7 @@ int main(void)
 	while (c <= 'z')
 	{
 		printf("%d" ":" "%c", c, c);
-                if (c == 'z');
-			printf("\n");
+		printf("\n");
 		c++;
 	}
 	return (0);
