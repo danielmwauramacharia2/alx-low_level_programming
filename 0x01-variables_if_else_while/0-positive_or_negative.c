@@ -4,7 +4,7 @@
 /**
  * main - Entry point of the code
  *
- * Description: Checks if number is +ve, -ve or zero
+ * Description: Checks if number is +ve, -ve or 0
  * Return: 0 for success
  */
 
