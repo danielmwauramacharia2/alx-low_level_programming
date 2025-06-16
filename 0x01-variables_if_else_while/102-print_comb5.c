@@ -23,8 +23,11 @@ int main(void)
 			putchar(' ');
 			putchar(m + '0');
 			putchar(n + '0');
-			putchar(',');
-			putchar(' ');
+			if (i != 98)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 			j++;
 		}
 		i++;
